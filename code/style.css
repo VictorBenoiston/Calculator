@@ -1,0 +1,113 @@
+#body {
+    display: flex;
+    background-color: hsl(0deg 5% 11%);
+    width: 400px;
+    height: 440px;
+    border-radius: 5%;
+}
+
+#usable_part {
+    height: 400px;
+    width: 360px;
+    margin: 20px;
+}
+
+#screen {
+    display: flex;
+    width: 360px;
+    height: 70px;
+    background-color: hsl(74deg 26% 58%);
+    border-radius: 5%;
+}
+
+#black_part {
+    display: flex;
+}
+
+#buttonCE, #buttonC, #button_div, #button_mult {
+    display: inline;
+    width: 80px;
+    height: 45px;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+#buttonC, #button_div, #button_mult{
+    margin-left: 20px;
+}
+
+#first_row, #second_row, #thrid_row, #forth_row  {
+    display: flex;
+}
+
+#button7, #button8, #button9, #button_minus {
+    display: inline;
+    width: 80px;
+    height: 45px;
+    background-color: hsl(240deg 1% 33%);
+    margin-top: 20px;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+#button8, #button9, #button_minus {
+    margin-left: 20px;
+}
+
+#button4, #button5, #button6, #button_plus {
+    display: inline;
+    width: 80px;
+    height: 45px;
+    background-color: hsl(240deg 1% 33%);
+    margin-top: 20px;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+#button5, #button6, #button_plus {
+    margin-left: 20px;
+
+}
+
+#button1, #button2, #button3, #button_dot {
+    display: inline;
+    width: 75px;
+    height: 45px;
+    background-color: hsl(240deg 1% 33%);
+    margin-top: 20px;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+#button2, #button3, #button_dot {
+    margin-left: 20px;
+}
+
+#button0 {
+    display: inline;
+    width: 170px;
+    height: 45px;
+    background-color: hsl(240deg 1% 33%);
+    margin-top: 20px;
+    color: white;
+    align-content: center;
+    text-align: center;
+}
+
+#button_equal {
+    display: inline;
+    width: 75px;
+    height: 75px;
+    background-color: hsl(240deg 1% 33%);
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -45px;
+    background-color: hsl(12deg 82% 55%);
+    padding-top: 35px;
+}
